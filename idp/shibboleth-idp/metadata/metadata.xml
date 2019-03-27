@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://auth.wasabisys.com/saml">
+    <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDDTCCAfWgAwIBAgIJAMKYEbbYnrTxMA0GCSqGSIb3DQEBCwUAMB0xGzAZBgNV
+BAMMEmF1dGgud2FzYWJpc3lzLmNvbTAeFw0xOTAzMjIxNzExMTZaFw0yOTAzMTkx
+NzExMTZaMB0xGzAZBgNVBAMMEmF1dGgud2FzYWJpc3lzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBANG77xhcS7vub6e+LX+vm7Vj2hVokHdg4bP5
+3RDVA3+IW2EF0uGTTysrkp3pbcKmeXRJ6E0O/ALyJ6NkN5cj99WSbxQzGLKLsjEF
+dOnA96ilCOUbIhUv3Vu1BUL67U/dEubv2fcSnJCpxu0m4MyELjxl4JrB8qrIU0pP
+aozTwl1SvrY9uOcD8dVdFZbcLi86aymkHtq7dA0GYAjOIqfFwKpb3pFjiJmwhnqm
+L2XciRIKi319ckwRtwg3L1riUSs+FH/S8bS/3HDZq+IP6f9TKF6OeKUmGbkcZ5BO
+u8zuqxp5UMej4sy6lzPnziulEn3Te75xaYRtewbXaEqqjcZRdzUCAwEAAaNQME4w
+HQYDVR0OBBYEFOG7+mlclMvgCpBu1/2w3YLBNbYtMB8GA1UdIwQYMBaAFOG7+mlc
+lMvgCpBu1/2w3YLBNbYtMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+AATzPM6IMpkzA9iIw/HNzP79woQlNA/tcGroExcydya1kcPvqGosyfXc32NdGSAB
+IjoA04pXrCbOnATxJqIRguGMmOZc/EsF3NgHeehOMftPg3Hm1tx1df31OvIrGnUe
+4lyNbVpv8GGxUsVKmXDk7AYiDY0kcww0tuLxxbateMKCWLzY3rPEL1+b0+SRHqMA
+Kn5pSHKSZJnpCB17kCewQC7nSxWMJS1e70FnE6390Xoev5qoCpjnB8/OOkm3h1jR
+binVk4TvH1kDSpJFTdqWveFS7ADKnUg83a6BX4Rg+kQa2fl5MNuuzxQlC5QTBBWO
+1eiM0yP8ykfepx3KRgpM9Ng=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+            <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-gcm" />
+            <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc" />
+            <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDDTCCAfWgAwIBAgIJAJORCjIYmmyaMA0GCSqGSIb3DQEBCwUAMB0xGzAZBgNV
+BAMMEmF1dGgud2FzYWJpc3lzLmNvbTAeFw0xOTAzMjIxNzEzMDhaFw0yOTAzMTkx
+NzEzMDhaMB0xGzAZBgNVBAMMEmF1dGgud2FzYWJpc3lzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBANTNb7Qz4EWytUJx7gqXfGyyHHCDLcZsH79U
+Nf7sOrf3TjK7lDNjvton2g7Sn5cw8AKMRlNSsV8ZXrXcOh8LowY9CZoz2G72IySj
+iK88tb0kKJZYD3ROZHE8Dru6BpJ5oByVQQyQFueQnS2oPH1ro6j7sUz/JNMjo4WV
+1S2ScApPtRtw5vVIdcCmg4u0P6GnlS7vCqOK4KBxdbWkYb1bRAuoFAbA2MvUVCdB
+iSG687xn7OD5OnoN7WlTWu/eNlWxbaOYf2Z73j+aTNQ7E8TFCQ6Q8uE9uakw9Jpp
+AGHmiYmebktP9Tg041StnpGclCa+h7ZTsL+MHtOGINxx3jyrn98CAwEAAaNQME4w
+HQYDVR0OBBYEFPeb7erPVfriBpOEPw0RCWkeYrX0MB8GA1UdIwQYMBaAFPeb7erP
+VfriBpOEPw0RCWkeYrX0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+AE/9LwI52GXSTWnNIMDH5hlOrewSr6VW+aPEwqTiQbWN2bNTE10qv5pSG9joCApH
+zjAr9+GdrWkNSWKBizQ6tw9pqUncwtl3m86f+6CR9JIY6nrONsaC2FVtwoKtBVgp
+ked7Fv2izeTJ/tV1ci+H3BUDQE5OOXxoCmo/VYXt+mY4Un7uPnFKgkLbuHfeRU/7
+fjqR65i4cVhfKL/snZhBG2pyYFifX/ez4ylJJ/Dyv+y1deuCQiKzCJ9bMw7cT1cF
+sjLh1kQWJW2VWgWkUs6N1fA21PDBLjpXphQaplgZeuMdB+kyeOCEz3jcL5GyjeIv
+BRfCnQXTFLzxCcc0tOQb3uI=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://auth.bluearchivedev.com:8371/v1/saml/callback" index="0" isDefault="true" />
+        <md:AttributeConsumingService index="0">
+			<md:RequestedAttribute FriendlyName="RoleEntitlement" Name="https://auth.wasabisys.com/SAML/Attributes/Role" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" isRequired="true" />
+            <md:RequestedAttribute FriendlyName="email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" isRequired="false" />
+           	<md:RequestedAttribute FriendlyName="firstName" Name="firstName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" isRequired="false" />
+            <md:RequestedAttribute FriendlyName="lastName" Name="lastName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" isRequired="false" />
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en">Wasabi Technologies, Inc</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en">Wasabi</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en">https://wasabi.com</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="support">
+        <md:GivenName>Customer Support</md:GivenName>
+        <md:EmailAddress>support@wasabi.com</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
